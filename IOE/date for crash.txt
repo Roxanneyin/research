@@ -1,0 +1,9 @@
+Nasdaq
+
+2000-3-11 to 2000-03-15, 2002-07-23, 2002-08-05, 2002-09-24, 2002-10-07 to 2002-10-09: Because of the dot-com bubble
+
+2002-07-15: Using the data and find the decline of adj_close is larger than 15% than the day before
+
+Dow Jones:
+2008-9-15: Lehman Brothers declared bankruptcy
+2008-09-29: Because of Congress rejected the bank bailout bill
