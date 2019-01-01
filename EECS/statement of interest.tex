@@ -1,0 +1,48 @@
+
+\documentclass[a4paper,12pt]{article}
+
+% add colors for to-be-changed part
+\usepackage{color}
+% page counting, header/footer
+\usepackage{fancyhdr}
+%\usepackage{lastpage}
+\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage{lastpage}
+
+%\usepackage{xunicode}% unicode character macros 
+\pagestyle{fancy}
+\lhead{\footnotesize \parbox{11cm}{Applicant: Yuan Yin} }
+\chead{\footnotesize  }
+\rhead{\footnotesize Research Assistant}
+
+\cfoot{\footnotesize Page \thepage\ of \pageref{LastPage}}
+
+
+
+\usepackage[svgnames]{xcolor}% provides colors for text
+\makeatletter% since there's an at-sign (@) in the command name
+\renewcommand{\@maketitle}{%
+  \begin{center}
+    \parskip\baselineskip% skip a line between paragraphs in the title block
+    \parindent=0pt% don't indent paragraphs in the title block
+    \textcolor{black}{\bf\@title}\par
+  % \textcolor{black}{\@author}\par
+    %\@date% remove the percent sign at the beginning of this line if you want the date printed
+  \end{center}
+}
+\makeatother% resets the meaning of the at-sign (@)
+
+
+\title{Academic Statement of Purpose}
+
+\begin{document}
+\maketitle
+
+\thispagestyle{fancy}% sets the current page style to 'fancy' -- must occur *after* \opening
+I am now a second-year student majoring in Quantitative Finance \& Risk Management program. And I am going to apply for Ph.D. program related to financial engineering after my graduation so I'm very glad to have opportunity getting into machine learning related programs early.
+
+I got in touch with doing research since undergraduate study. Our team did a systematical research for a whole year. The main idear is to segment 3D surfaces efficiently which has been applied in real world a lot. From the very beginning we only have some ideas about current status of research on image sementation, and later with reading papers and gathering informations we came up with a new question focusing specifically on how to effectively segment 3 dimension surfaces. During that time I also wrote application, prepared presentation of the national college students' project and successfully got funds to help with continuing our research.
+
+Then during my graduate study, I worked with professor Romesh Saigal to help making the paper \emph{Predicting the Unpredictable: Stock Markets in the Face of Brexit} more perfect. Our team used a new set of raw data to replicate the method in this paper to test information flow hyphothesis which is to predict low-value stocks with high-value stocks' information. And we also compared different machine learning methods such as SVM and DNN to figure out the efficiency of different methods. Also, I read many deep learning related papers to help modifying interpretation of introduction, models and result analysis in the paper. This helps me a lot on gathering key ideas and motivations on research quickly from the abstract and introduction of a paper.
+
+\end{document}
